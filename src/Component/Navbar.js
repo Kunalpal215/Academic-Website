@@ -7,7 +7,6 @@ const Navbar=()=>{
         <div>
         <nav className="navbar navbar-dark bg-dark fixed-top">
         <div className="container-fluid ">
-          <a className="navbar-brand" href="#">D . C . R . U . S . T</a>
           <button className="navbar-toggler color" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
             <span className="navbar-toggler-icon color"></span>
           </button>
