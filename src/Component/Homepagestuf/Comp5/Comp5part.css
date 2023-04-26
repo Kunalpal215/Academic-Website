@@ -1,0 +1,16 @@
+.comp5part {
+    width: 100%;
+    background-color: rgb(41, 5, 170);
+    text-align: center;
+    
+    padding: 5px;
+   margin: 2px;
+   
+}
+.comp5part:hover{
+    background-color:  rgb(55, 55, 248);
+}
+.comp5part h2 a{
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,70 @@
+.scholHeading{
+    text-align: center;
+    margin: 30px 20% 30px 20%;
+}
+.scholHeading p{
+    text-align: justify;
+    margin: 10px;
+    font-size: 1.2rem;
+    color: rgb(33, 32, 32);
+}
+.scholType{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+.scholType2{
+display: flex;
+align-items: center;
+}
+.scholType1{
+    padding: 10px;
+    margin: 20px;
+    border: 2px solid;
+    border-radius: 10px;
+    
+}
+.scholLink{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.scholType1:hover{
+    background-color: rgb(255, 102, 0);
+    color: white;
+}
+.scholLink:hover{
+    color: black;
+}
+
+.scholBox{
+    margin-top:40px ;
+    background-color: #f5edde;
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 30px;
+}
+
+
+
+
+
+
+.scholComp3{
+    margin-top: 50px;
+    padding: 20px;
+   display: flex; 
+   justify-content: space-around;
+   flex-wrap: wrap;  
+  
+}
+@media only screen and (max-width : 500px){
+    .scholHeading{
+        
+        margin: 30px 2% 30px 2%;
+    }
+    .scholType2{
+        flex-direction: column;
+        }
+}

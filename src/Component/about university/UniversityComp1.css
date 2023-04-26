@@ -1,0 +1,27 @@
+.uni img{
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 10px;  
+}
+.uni {
+    /* padding: 0px 10px 10px 10px; */
+    width: 96%;
+    margin: 40px 2% 40px 2%;
+    border: 5px solid rgb(12, 0, 249);
+    
+    border-radius: 10px;
+    
+    
+}
+.uni h1{
+    text-align: center;
+    background-color: blue;
+    padding: 5px;
+    color: wheat;
+}
+.uni p{
+font-size: 1.4rem;
+text-align: justify;
+padding: 10px;
+}

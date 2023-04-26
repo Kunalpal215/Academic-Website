@@ -1,0 +1,58 @@
+.chair {
+    width: 70%;
+    height: 500px;
+    margin: auto;
+    border: 1px solid;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.chair h1 {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 10px;
+
+}
+
+.chair a p {
+    margin: 30px;
+    font-size: 1.2rem;
+    text-align: justify;
+
+
+}
+
+.chair a {
+    text-decoration: none;
+    color: black;
+}
+
+.imgs {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    float: right;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+}
+
+@media only screen and (max-width : 500px) {
+    .imgs {
+
+        float: none;
+        display: block;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width : 1000px) {
+    .chair {
+        width: 95%;
+    }
+}

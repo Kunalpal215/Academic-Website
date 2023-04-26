@@ -1,0 +1,45 @@
+.exams{
+    margin: 50px 10px 50px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.examSide{
+    display: flex;
+    flex-direction: column;
+
+}
+.result{
+    width: 350px;
+    height: 500px;
+    margin-top: 20px;
+    height: 300px;
+    border: 1px solid;
+    text-align: center;
+    overflow: hidden scroll;
+    
+  
+}
+.result h3{
+    text-align: center;
+    background-color: aqua;
+    padding: 3px;
+}
+.ExamDate{
+    /* border: 1px solid black; */
+    width: 90%;
+    padding: 10px;
+    text-align: center;
+}
+.ExamDate p{
+    padding: 5px;
+}
+.ExamDate p:hover{
+    background-color:rgb(128, 128, 255);
+    /* color: white; */
+}
+@media only screen and (max-width:700px){
+    .exams{
+        flex-direction: column-reverse;
+    }
+}

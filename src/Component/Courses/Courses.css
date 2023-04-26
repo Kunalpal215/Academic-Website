@@ -1,0 +1,26 @@
+.course{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px;
+    margin: 10px 10px 80px 10px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+.heading{
+    text-align: center;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.course1 , .course2 {
+width: 45%;
+}
+@media only screen and ( max-width: 800px){
+    .course{
+        flex-direction: column;
+    }
+    .course1 , .course2{
+        width: 100%;
+    }
+}

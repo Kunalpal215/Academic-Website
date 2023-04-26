@@ -1,0 +1,54 @@
+.comp3{
+    margin-top: 50px;
+    padding: 20px;
+   display: flex; 
+   justify-content: space-around;
+   flex-wrap: wrap;
+   box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+   
+   
+}
+
+/* comp5 and 4 css */
+
+.multi{
+    display: flex;
+    padding: 0px 80px 0px 80px;
+    justify-content: space-between;
+    margin: 30px 0px 30px 0px;
+    background-color: #f5edde;
+}
+.video iframe{
+    width:700px;
+     height:400px ;
+}
+.comp5card{
+/* background-color: aqua; */
+width: 35%;
+}
+@media only screen and (max-width : 1255px){
+    .multi{
+        padding: 0px 10px 0px 10px;
+
+    }
+}
+@media only screen and (max-width : 1100px){
+    .multi{
+        
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .comp5card{
+        margin-top: 20px;
+        width: 90%;
+        }
+
+}
+@media only screen and (max-width : 760px){
+.video iframe{
+    width: 99% ;
+    height: 70%;
+
+}
+}

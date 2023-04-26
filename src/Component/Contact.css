@@ -1,0 +1,13 @@
+
+.contacts{
+    margin: 50px 15% 30px 15%;
+    text-align: center;
+
+}
+.contactCards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    
+}

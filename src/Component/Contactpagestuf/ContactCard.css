@@ -1,0 +1,13 @@
+
+.ContactCard{
+    width: 250px;
+    height: 280px;
+    background-color: #f5edde;
+    border-radius: 10px;
+    padding: 20px 5px 10px 5px;
+    text-align: center;
+    margin: 10px;
+    
+    
+}
+
